@@ -160,6 +160,11 @@ skinparam collectionsBorderColor black
 collections "<img:https://raw.githubusercontent.com/kubernetes/kubernetes/refs/heads/master/logo/logo.png{scale=0.008}>\n$name" #CLUSTER_NODES_COLOR
 !endprocedure
 
+!unquoted procedure KEYCLOAK_LOGO($name)
+skinparam collectionsBorderColor black
+collections "<img:https://raw.githubusercontent.com/gkatsikas/hypo-workflows/refs/heads/user-registration/images/Keycloak-logo.png{scale=0.15}>\n$name" #White
+!endprocedure
+
 !unquoted procedure CLUSTER_NODES($name)
 skinparam collectionsBorderColor black
 collections "$name" #CLUSTER_NODES_COLOR
